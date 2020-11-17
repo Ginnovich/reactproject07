@@ -1,6 +1,6 @@
 import React from 'react'
 import TodoList from './TODO/TodoList'
-import Game from './Game/Game'
+import Game from './GameComponents/Game'
 
 function App() {
   return <div>

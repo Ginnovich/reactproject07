@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import StepsCount from '../src/GameComponents/StepsCount'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <StepsCount />
   </React.StrictMode>,
   document.getElementById('root')
 );
